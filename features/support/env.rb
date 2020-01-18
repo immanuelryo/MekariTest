@@ -7,7 +7,7 @@ require 'watir'
 
 include Selenium
 
-browser = Watir::Browser.new :firefox
+browser = Watir::Browser.new :chrome
 
 Before do
   @browser = browser
